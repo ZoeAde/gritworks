@@ -1,0 +1,66 @@
+@font-face {
+    font-family: LANE;
+    src: local("LANE"), url('../fonts/lane/LANENAR_.ttf');
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/geometry.png);
+/*  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;*/
+  background-color:#464646;
+}
+
+
+section {
+  text-align: center;
+}
+
+#title {
+  margin-top: 15%;
+  color: #222;
+  font-family: LANE;
+}
+
+#title h2 {
+  font-size: 5em;
+}
+
+#about {
+  margin-top: 2em;
+  margin-bottom: 4em;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#about h2{
+  text-align: center;
+  font-family: LANE;
+}
+
+#cta button {
+  background: transparent;
+  opacity: 0.8;
+  border: solid 2px #222;
+  border-radius: 0px;
+  background-color: rgb(94, 204, 171);
+  font-family: LANE;
+  letter-spacing: 2px;
+  font-size: 1.4em;
+}
+
+#cta button:hover {
+  background-color: rgba(94, 204, 171, 0.5);
+}
+
+
+#cta button a {
+  color: #222;
+  text-decoration: none;
+}
+
+
