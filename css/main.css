@@ -12,6 +12,9 @@ body {
   background-attachment: fixed;
   background-size: cover;*/
   background-color:#464646;
+  overflow-x: hidden;
+  padding: none;
+  margin: none;
 }
 
 
@@ -19,27 +22,50 @@ section {
   text-align: center;
 }
 
+section h2{
+  text-align: center;
+  font-family: LANE;
+  font-size: 3em;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
 #title {
-  margin-top: 15%;
+  margin-top: 8%;
   color: #222;
   font-family: LANE;
 }
 
-#title h2 {
+
+#title h1 {
   font-size: 5em;
+  font-weight: bold;
+}
+
+#mission {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 2em;
+}
+
+#mission p {
+  text-align: left;
+  font-size: 1.2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: LANE;
+  font-weight: bold;
 }
 
 #about {
-  margin-top: 2em;
-  margin-bottom: 4em;
+  width: 100%;
+  margin-top: 5em;
   text-align: left;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-#about h2{
-  text-align: center;
-  font-family: LANE;
+  background-color: rgb(236, 236, 236);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 #cta button {
@@ -56,7 +82,6 @@ section {
 #cta button:hover {
   background-color: rgba(94, 204, 171, 0.5);
 }
-
 
 #cta button a {
   color: #222;
@@ -77,3 +102,13 @@ section {
   }
 
 
+.italic {
+  font-style: italic;
+  color: rgb(94, 204, 171);
+}
+
+
+footer {
+  text-align: center;
+  padding-top: 4em;
+}
