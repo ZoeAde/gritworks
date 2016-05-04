@@ -17,6 +17,87 @@ body {
   margin: none;
 }
 
+.navbar-default {
+    border: none;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.navbar-logo {
+    margin-top: -32px;
+    margin-bottom: 10px;
+    max-height: 87px;
+    margin-left: -10px;
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #222;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: rgb(33, 206, 153);
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    /*color: rgb(33, 206, 153)!important;*/
+    background-color: rgba(255,255,255,.2);
+}
+
+.navbar-default .nav > li.active>a:hover,
+.navbar-default .nav>li.active>a:focus:hover {
+    background-color:rgba(255,255,255,.2);
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        background-color: rgba(255,255,255,.2);
+    }
+
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: #222;
+    }
+
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #222;
+    }
+
+    .navbar-default.affix {
+        background-color: #fff;
+    }
+
+    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #222;
+    }
+
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: rgb(33, 206, 153);
+    }
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+    background: transparent;
+}
+.navbar-default .navbar-toggle:hover, .navbar-toggle:hover:active, .navbar-toggle:hover:focus, .navbar-toggle:visited {
+/*    border: none;*/
+    background: transparent;
+}
+
+
+
+
 
 section {
   text-align: center;
@@ -112,3 +193,6 @@ footer {
   text-align: center;
   padding-top: 4em;
 }
+
+
+
