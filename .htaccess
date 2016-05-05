@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "restricted area"
-AuthUserFile /candidateform.html/.htpasswd
-require valid-user
